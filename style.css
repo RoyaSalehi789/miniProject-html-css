@@ -111,3 +111,58 @@ body{
 .flexBox:hover{
     transform: perspective(300px)translate3d(0px,0px,10px);
 }
+
+.responsiveHeader{
+    margin-top: 10px;
+    text-align: center;
+    height: auto;
+    border: #34395e 1px solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #34395e;
+    display: block;
+    line-height: 1.6;
+    font-family: montstraff , sans-serif;
+    box-sizing: border-box;
+}
+.responsiveHeader a,.headerItem a{
+    color:rgb(20, 95, 69);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.HeaderItems li{
+    list-style-type: none;
+    padding: 2px;
+}
+.headerLogo{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    padding: auto;
+    margin-left: 30px;
+}
+.headerItem a:hover{
+    color:rgb(20, 95, 69);
+}
+@media(min-width:1000px){
+    .responsiveHeader{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .HeaderItems li{
+        padding: 28px;
+    }
+}
+@media(min-width:770px){
+    .HeaderItems{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .HeaderItems li{
+        padding: 28px;
+    }
+}
+.HeaderItems{
+    margin-right:10px;
+}
