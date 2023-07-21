@@ -1,0 +1,24 @@
+*{
+    margin: auto;
+}
+body{
+    background:rgb(243, 238, 238);
+}
+.flexBox{
+    width: 280px;
+    height: 350px;
+    background-color:snow;
+    border-radius: 10px;
+    box-shadow: inset;
+    padding: 1px;
+    margin: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 20px black;
+    margin-top: 10px;
+}
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
