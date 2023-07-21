@@ -22,3 +22,87 @@ body{
     padding: 0px;
     margin: 0px;
 }
+.img{
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+}
+.text{
+    text-decoration: none;
+    font-family:Verdana, Geneva;
+}
+.timeIcon{
+    color:rgba(29, 29, 29,5);
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.time{
+    margin-top: -18px;
+    margin-left: 115px;
+}
+.movieIcon{
+    margin-right: 80px;
+    margin-top: -18px;
+}
+.movieTime{
+    margin-top: -18px;
+    margin-right: 55px;
+}
+.techer{
+    margin-right: -240px;
+    margin-top: 30px;
+}
+#lined{
+    text-decoration:line-through;
+    margin-top: -15px;
+    font-size: 12px;
+    margin-left: 80px;
+}
+#price{
+    color: red;
+    margin-right: 80px;
+    margin-top: -16px;
+}
+.img{
+    width: 280px;
+    height: 200px;
+    border-radius: 10px;
+}
+.text{
+    text-decoration: none;
+    font-family:Verdana, Geneva;
+}
+.timeIcon{
+    color:rgba(29, 29, 29,5);
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.time{
+    margin-top: -18px;
+    margin-left: 115px;
+}
+.movieIcon{
+    margin-right: 80px;
+    margin-top: -18px;
+}
+.movieTime{
+    margin-top: -18px;
+    margin-right: 55px;
+}
+.techer{
+    margin-right: -240px;
+    margin-top: 30px;
+}
+#lined{
+    text-decoration:line-through;
+    margin-top: -15px;
+    font-size: 12px;
+    margin-left: 80px;
+}
+#price{
+    color: red;
+    margin-right: 80px;
+    margin-top: -16px;
+}
